@@ -3,13 +3,13 @@
 use Database\Database;
 use Models\Bug;
 
-require 'config.php';
+require_once 'config.php';
 if (!isset($_SESSION['visitor']['id'])) {
     $_SESSION['visitor']['id'] = rand(1000000, 10000000);
 }
 
-require 'Database/Database.php';
-require 'Models/Bug.php';
+require_once 'Database/Database.php';
+require_once 'Models/Bug.php';
 
 $bug = new Bug();
 
@@ -24,9 +24,12 @@ $bug = new Bug();
 </head>
 <body>
 <div class="container mx-auto">
-    <h1 class="text-2xl font-bold">Hello World</h1>
+    <h1 class="text-2xl font-bold mt-2">Hello World</h1>
 
-    <hr class="mb-8 mt-8">
+    <a class="bg-blue-200 hover:bg-blue-300 text-black-600 py-2 px-4 rounded float-right mb-4"
+        href="<?= APP_URL_PREFIX ?>/dashboard.php">Engineer Dashboard</a>
+
+    <hr class="mb-8 mt-8 clear-right">
 
     <button id="report-bug-btn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
         Report a Bug

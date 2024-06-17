@@ -5,8 +5,8 @@ use Models\Bug;
 
 require 'config.php';
 
-require 'Database/Database.php';
-require 'Models/Bug.php';
+require_once 'Database/Database.php';
+require_once 'Models/Bug.php';
 
 $bug = new Bug();
 

@@ -9,8 +9,8 @@ if (!isset($_SESSION['user'])) {
     exit;
 }
 
-require 'Database/Database.php';
-require 'Models/Bug.php';
+require_once 'Database/Database.php';
+require_once 'Models/Bug.php';
 
 $bug = new Bug();
 $bugs = $bug->getAllBugs();
