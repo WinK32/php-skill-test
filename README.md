@@ -31,8 +31,8 @@ If the time span is 4-5 hours, so I kept in those timelines.
 
 About __TASK 2__
 
-It was tricky, because string you provided didn't fully matched the convention.
-And as I have never dealt with such kind of task, I should investigate and guess which string should be proper one.
+It was tricky, because the string you provided didn't fully matched the convention.
+And as I have never dealt with such kind of task, I should investigate and guess which string should be the proper one.
 
 `OtSrzlB7n3MjD01XlzM4MfNeam1Z+oCnO3kEkxptuS4=`
 
