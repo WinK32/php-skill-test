@@ -1,4 +1,4 @@
-I am sorry, but I don't want to create a video.
+I am sorry, but I am not very comfortable to create a video.
 
 But I can explain my approach here.
 
