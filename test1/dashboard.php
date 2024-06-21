@@ -124,9 +124,9 @@ $bugs = $bug->getAllBugs();
                             <tr id="bug-${bug.id}">
                                 <td class="p-2 border border-slate-300">${bug.id}</td>
                                 <td class="py-2 border border-slate-300">${bug.title}</td>
-                                <td class="py-2 border border-slate-300">${bug.comment}</td>
+                                <td class="py-2 border border-slate-300" data-comment>${bug.comment}</td>
                                 <td class="py-2 border border-slate-300">${bug.priority}</td>
-                                <td class="py-2 border border-slate-300" id="status-${bug.id}">${bug.status}</td>
+                                <td class="py-2 border border-slate-300" data-status>${bug.status}</td>
                                 <td class="py-2 border border-slate-300">
                                     <select class="w-full" onchange="updateStatus(${bug.id}, this.value)">
                                         <option value="open" ${bug.status == 'open' ? 'selected' : ''}>Open</option>
